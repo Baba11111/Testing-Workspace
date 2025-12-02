@@ -30,7 +30,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.10.2</version>
-			<scope>test</scope>
+			
 		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -62,5 +62,6 @@
         <artifactId>slf4j-api</artifactId>
         <version>2.0.13</version>
     </dependency>
+		
 	</dependencies>
 </project>
