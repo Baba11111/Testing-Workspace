@@ -99,7 +99,10 @@ public class BaseClass {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(By.id("enter_bug"))).click();
         //driver.findElement(By.id("enter_bug")).click();
+      
+        //driver.findElement(By.xpath("//*[@id=\"choose_product\"]/tbody/tr[6]/th/a")).click();
         driver.findElement(By.xpath("//*[@id=\"choose_product\"]/tbody/tr[13]/th/a")).click();
+        
         
       
     }

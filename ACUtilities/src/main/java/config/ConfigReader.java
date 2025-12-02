@@ -10,7 +10,7 @@ public class ConfigReader {
     // Constructor to load properties file
     public ConfigReader() {
         try {
-            FileInputStream fileInputStream = new FileInputStream("G:\\myprojects\\ACUtilities\\config.properties");
+            FileInputStream fileInputStream = new FileInputStream("G:\\Testing Workspace\\ACUtilities\\config.properties");
             properties = new Properties();
             properties.load(fileInputStream);
         } catch (IOException e) {
