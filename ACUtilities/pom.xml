@@ -53,10 +53,6 @@
 			<version>3.0.0-beta2</version>
 		</dependency>
 		<dependency>
-			<groupId>Utilities</groupId>
-			<artifactId>Utilities</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency><dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-java-commons</artifactId>
 			<version>2.20.1</version>
