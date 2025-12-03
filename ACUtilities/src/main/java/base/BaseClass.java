@@ -65,7 +65,7 @@ public class BaseClass {
                 break;
             default:
                 throw new IllegalArgumentException("Browser not supported: " + browser);
-        }         
+        }                           
 
        
       
