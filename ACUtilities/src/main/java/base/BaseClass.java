@@ -51,7 +51,7 @@ public class BaseClass {
         switch (browser.toLowerCase()) {
             case "chrome":           	
                 WebDriverManager.chromedriver().setup();
-                options.setAcceptInsecureCerts(true);
+                options.setAcceptInsecureCerts(true);           
                 driver = new ChromeDriver(options);
                 
                 break;
