@@ -44,7 +44,7 @@ public class BaseClass {
         String username = configReader.getUsername();
         String password = configReader.getPassword();
         
-        int implicitWait = configReader.getIntProperty("implicitWait");
+        int implicitWait = configReader.getIntProperty("");
         int explicitWait = configReader.getIntProperty("explicitWait");
 
         // Initialize WebDriver based on the browser specified in config
