@@ -66,12 +66,6 @@ public class BaseClass {
             default:
                 throw new IllegalArgumentException("Browser not supported: " + browser);
         }                           
-
-       
-      
-        
-       
-
 		//Using the accept insecure cert method with true as parameter to accept the untrusted certificate
        
 				
