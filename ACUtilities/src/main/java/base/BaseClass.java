@@ -70,7 +70,7 @@ public class BaseClass {
        
 				
 		//Creating instance of Chrome driver by passing reference of ChromeOptions object
-		 //driver = new ChromeDriver(options);
+		 //driver = new ChromeDriver(options);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 		 // Maximize window
         driver.manage().window().maximize();               
         // Set implicit wait
