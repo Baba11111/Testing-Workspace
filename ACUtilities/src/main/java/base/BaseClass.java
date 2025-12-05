@@ -81,7 +81,7 @@ public class BaseClass {
         LOGGER.info("Browser " + browser + " launched and navigated to " + url);         
         
         driver.findElement(By.xpath("//*[@id=\"login_link_top\"]")).click();
-        driver.findElement(By.id("Bugzilla_login_top")).sendKeys(username);
+        driver.findElement(By.id("Bugzilla_login_top")).sendKeys(username);             
         driver.findElement(By.id("Bugzilla_password_top")).sendKeys(password);
 
 //        //for directly send the values
