@@ -75,7 +75,7 @@ public class BaseClass {
         driver.manage().window().maximize();               
         // Set implicit wait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
-        // Set explicit wait
+        // Set explicit wai              
         wait = new WebDriverWait(driver, Duration.ofSeconds(explicitWait));      
         driver.get(url);
         LOGGER.info("Browser " + browser + " launched and navigated to " + url);         
